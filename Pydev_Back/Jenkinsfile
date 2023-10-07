@@ -1,0 +1,79 @@
+pipeline {
+    agent {
+        label 'ecev-cicd'
+    }
+    stages {
+        stage("Verify tooling") {
+            steps {
+                sh '''
+                    sudo docker info
+                    sudo docker version
+                    sudo docker compose version
+                '''
+            }
+        }
+        // stage("Verify SSH connection to server") {
+        //     steps {
+        //         sshagent(credentials: ['ubuntu']) {
+        //             sh '''
+        //                 ssh -o StrictHostKeyChecking=no ubuntu@18.118.117.245 whoami
+        //             '''
+        //         }
+        //     }
+        // }        
+        stage("Clear all running docker containers") {
+            steps {
+                script {
+                    try {
+                        sh 'docker rm -f $(docker ps -a -q)'
+                    } catch (Exception e) {
+                        echo 'No running container to clear up...'
+                    }
+                }
+            }
+        }
+        stage("Start Docker") {
+            steps {
+                sh 'make up'
+                sh 'sudo docker compose ps'
+            }
+        }
+        stage("Run Composer Install") {
+            steps {
+                sh 'sudo docker compose run --rm composer update'
+                sh 'sudo docker compose run --rm composer install'
+            }
+        }
+        // stage("Populate .env file") {
+        //     steps {
+        //         sh 'sudo cp /usr/src/ecev-workspace/workspace/mypipeline/artifact.zip /home/ubuntu/artifact'
+        //     }
+        // }              
+        stage("Run Tests") {
+            steps {
+                sh 'sudo docker compose run --rm artisan test'
+            }
+        }
+    }
+    post {
+        success {
+            sh 'cd "/usr/src/ecev-workspace/workspace/ecevbackend"'
+            sh 'pwd'
+            sh 'rm -rf artifact.zip'
+            sh 'zip -r artifact.zip . -x "*node_modules**"'
+            sh 'sudo cp /usr/src/ecev-workspace/workspace/mypipeline/artifact.zip /home/ubuntu/artifact'
+            sh 'sudo unzip -o /home/ubuntu/artifact/artifact.zip -d /var/www/html/ecevbackend'
+            sh 'sudo chmod 777 /var/www/html/ecevbackend/storage -R'
+            sh '''
+                    cd "/var/www/html/ecevbackend"
+                    sudo cp .env.example .env
+                    sudo php artisan key:generate && php artisan migrate:fresh --seed && php artisan passport:install && php artisan optimize:clear
+                '''
+
+        }
+        always {
+            sh 'sudo docker compose down --remove-orphans -v'
+            sh 'sudo docker compose ps'
+        }
+    }
+}

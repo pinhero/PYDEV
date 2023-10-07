@@ -14,9 +14,19 @@ class UserFactory extends Factory
      */
     public function definition()
     {
+        $role= ['ROLE_ADMIN', 'ROLE_AFFRETEUR', 'ROLE_SOCIETE_TRANSPORT', 'ROLE_TRANSPORTEUR_INDEPENDANT'];
+        $email= ['user@gmail.com', 'affreteur@gmail.com', 'societe@gmail.com', 'transporteur@gmail.com'];
+
         return [
-            'name' => $this->faker->name(),
-            'email' => $this->faker->unique()->safeEmail(),
+            'username'=>$this->faker->unique()->userName(),
+            'lastname'=>$this->faker->lastName,
+            'firstname'=>$this->faker->firstName(),
+            'telephone'=>$this->faker->unique()->phoneNumber,
+            'adresse'=>$this->faker->address,
+            'status'=>'CREATED',
+            'is_condition'=>true,
+            'role' => $role[array_rand($role)],
+            'email' => $email[array_rand($email)],
             'email_verified_at' => now(),
             'password' => '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', // password
             'remember_token' => Str::random(10),

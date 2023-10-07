@@ -2,16 +2,20 @@
 
 namespace App\Models;
 
+use App\Models\Affreteur\Offre;
+use App\Models\Client\Client;
+use App\Notifications\VerifyEmailQueued;
 use Illuminate\Contracts\Auth\MustVerifyEmail;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Relations\HasOne;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
-use Laravel\Sanctum\HasApiTokens;
-
-class User extends Authenticatable
+use Laravel\Passport\HasApiTokens;
+use IvanoMatteo\LaravelDeviceTracking\Traits\UseDevices;
+    
+class User extends Authenticatable implements MustVerifyEmail
 {
-    use HasApiTokens, HasFactory, Notifiable;
-
+    use HasApiTokens, HasFactory, Notifiable, UseDevices;
     /**
      * The attributes that are mass assignable.
      *
@@ -20,8 +24,8 @@ class User extends Authenticatable
     protected $fillable = [
         'name',
         'email',
-        'password',
         'orcid',
+        'password',
     ];
 
     /**
@@ -41,5 +45,15 @@ class User extends Authenticatable
      */
     protected $casts = [
         'email_verified_at' => 'datetime',
+        'birthday' => 'datetime:d-m-Y',
     ];
+
+    public function sendEmailVerificationNotification()
+    {
+        $this->notify(new VerifyEmailQueued);
+    }
+    public function client(): HasOne
+    {
+        return $this->hasOne(Client::class);
+    }
 }

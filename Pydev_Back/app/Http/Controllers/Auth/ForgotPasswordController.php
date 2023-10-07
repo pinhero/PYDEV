@@ -3,11 +3,8 @@
 namespace App\Http\Controllers\Auth;
 
 use App\Models\User;
-use Illuminate\Support\Str;
 use Illuminate\Http\Request;
-use App\Mail\ResetPasswordMail;
 use App\Jobs\ResetPasswordMailJob;
-use Illuminate\Support\Facades\Mail;
 use App\Http\Controllers\BaseController;
 use App\Models\Auth\UserConfirmationToken;
 use Illuminate\Support\Facades\Hash;

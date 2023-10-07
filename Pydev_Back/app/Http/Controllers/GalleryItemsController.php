@@ -9,7 +9,7 @@ class GalleryItemsController extends BaseController
 {
     public function __construct()
     {
-        $this->middleware('scope:admin')->except(['getAll', 'getOne']);
+        $this->middleware('scope:user')->except(['getAll', 'getOne']);
         $this->middleware(['auth:api'])->except(['getAll', 'getOne']);
     }
 

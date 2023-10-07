@@ -18,7 +18,7 @@ class UserController extends BaseController
 
     public function __construct(UserContract $userRepository)
     {
-        $this->middleware('scope:admin,client');
+        $this->middleware('scope:user');
         $this->middleware(['verified', 'auth:api'])->except(['index']);
 
         $this->userRepository = $userRepository;

@@ -24,28 +24,10 @@ class AuthController extends BaseController
         $credentials = ['email' => $request->email, 'password' => $request->password];
         if (Auth::attempt($credentials)) {
             $user = User::findOrFail(Auth::id());
-            if($user->status != 'ENABLED'){
-                return $this->sendError('Votre compte n\'est pas encore activé ou a été désactivé par l\'administrateur');
-            }
             if($user->email_verified_at == null){
                 return $this->sendError('Veuillez valider votre adresse email!');
             }
-            if ($user->role) {
-                switch ($user->role) {
-                    case 'ROLE_ADMIN':
-                        $this->scope ='admin';
-                        break;
-
-                    case 'ROLE_CLIENT':
-                        $this->scope = 'client';
-                        break;
-
-                    default:
-                        $this->scope ='';
-                        break;
-                }
-                //set scope based on user role
-            }
+            $this->scope = 'user';
 
             $token = $user->createToken($user->email . '-' . now(),[$this->scope]);
 
@@ -57,7 +39,7 @@ class AuthController extends BaseController
                 $data = [
                     'token' => $token->accessToken,
                     'is_verify' => $user->email_verified_at? true : false,
-                    'role' => $user->role,
+                    'orcid' => $user->orcid,
                     'token_scope' => $token->token->scopes[0],
                     'expires_at' => Carbon::parse($token->token->expires_at)->format('d.m.Y H:s:i'),
                 ];

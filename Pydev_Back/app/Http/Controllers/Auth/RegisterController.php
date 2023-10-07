@@ -12,19 +12,16 @@ use Illuminate\Support\Facades\Hash;
 class RegisterController extends BaseController
 {
 
-
     public function __invoke(UserFormRequest $request)
     {
-
         $password = Hash::make($request->password); //Hash the password, we can also use bcrypt()
         //Create user based on the role
         DB::beginTransaction();
         try {
             $user = User::create([
                 'name' => $request->name,
-                'status' => $request->status,
+                'orcid' => $request->orcid,
                 'email' => $request->email,
-                'role' => $request->role,
                 'password' => $password,
             ]);
             DB::commit();
@@ -36,7 +33,7 @@ class RegisterController extends BaseController
         event(new Registered($user));
 
         $success =  $user;
-        $success['token'] =  $user->createToken($user->email . '-' . now(), [$request->scopes])->accessToken;
+        $success['token'] =  $user->createToken($user->email . '-' . now(), ['user'])->accessToken;
 
         return $this->sendResponse($success, 'Utilisateur enregistré avec succès.');
     }
