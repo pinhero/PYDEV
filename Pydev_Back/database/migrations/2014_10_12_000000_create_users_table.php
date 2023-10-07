@@ -18,8 +18,8 @@ class CreateUsersTable extends Migration
             $table->string('name');
             $table->string('email')->unique();
             $table->timestamp('email_verified_at')->nullable();
-            $table->enum('role',['ROLE_PROMOTEUR','ROLE_COLLABORATEUR']);
             $table->string('password');
+            $table->string('orcid')->nullable();
             $table->rememberToken();
             $table->timestamps();
         });
