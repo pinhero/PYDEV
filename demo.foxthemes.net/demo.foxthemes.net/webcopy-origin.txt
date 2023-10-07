@@ -1,0 +1,304 @@
+Uri: https://demo.foxthemes.net/instello/assets/css/style.css
+File Name: C:\Downloaded Web Sites\demo.foxthemes.net\instello\assets\css\style.css
+Content Type: text/css
+
+Uri: https://demo.foxthemes.net/instello/assets/css/tailwind.css
+File Name: C:\Downloaded Web Sites\demo.foxthemes.net\instello\assets\css\tailwind.css
+Content Type: text/css
+
+Uri: https://demo.foxthemes.net/instello/assets/images/ad_pattern.png
+File Name: C:\Downloaded Web Sites\demo.foxthemes.net\instello\assets\images\ad_pattern.png
+Content Type: image/png
+
+Uri: https://demo.foxthemes.net/instello/assets/images/affect.jpg
+File Name: C:\Downloaded Web Sites\demo.foxthemes.net\instello\assets\images\affect.jpg
+Content Type: image/jpeg
+
+Uri: https://demo.foxthemes.net/instello/assets/images/avatars/avatar-1.jpg
+File Name: C:\Downloaded Web Sites\demo.foxthemes.net\instello\assets\images\avatars\avatar-1.jpg
+Content Type: image/jpeg
+
+Uri: https://demo.foxthemes.net/instello/assets/images/avatars/avatar-2.jpg
+File Name: C:\Downloaded Web Sites\demo.foxthemes.net\instello\assets\images\avatars\avatar-2.jpg
+Content Type: image/jpeg
+
+Uri: https://demo.foxthemes.net/instello/assets/images/avatars/avatar-3.jpg
+File Name: C:\Downloaded Web Sites\demo.foxthemes.net\instello\assets\images\avatars\avatar-3.jpg
+Content Type: image/jpeg
+
+Uri: https://demo.foxthemes.net/instello/assets/images/avatars/avatar-4.jpg
+File Name: C:\Downloaded Web Sites\demo.foxthemes.net\instello\assets\images\avatars\avatar-4.jpg
+Content Type: image/jpeg
+
+Uri: https://demo.foxthemes.net/instello/assets/images/avatars/avatar-5.jpg
+File Name: C:\Downloaded Web Sites\demo.foxthemes.net\instello\assets\images\avatars\avatar-5.jpg
+Content Type: image/jpeg
+
+Uri: https://demo.foxthemes.net/instello/assets/images/avatars/avatar-6.jpg
+File Name: C:\Downloaded Web Sites\demo.foxthemes.net\instello\assets\images\avatars\avatar-6.jpg
+Content Type: image/jpeg
+
+Uri: https://demo.foxthemes.net/instello/assets/images/avatars/avatar-7.jpg
+File Name: C:\Downloaded Web Sites\demo.foxthemes.net\instello\assets\images\avatars\avatar-7.jpg
+Content Type: image/jpeg
+
+Uri: https://demo.foxthemes.net/instello/assets/images/avatars/avatar-lg-1.jpg
+File Name: C:\Downloaded Web Sites\demo.foxthemes.net\instello\assets\images\avatars\avatar-lg-1.jpg
+Content Type: image/jpeg
+
+Uri: https://demo.foxthemes.net/instello/assets/images/avatars/avatar-lg-2.jpg
+File Name: C:\Downloaded Web Sites\demo.foxthemes.net\instello\assets\images\avatars\avatar-lg-2.jpg
+Content Type: image/jpeg
+
+Uri: https://demo.foxthemes.net/instello/assets/images/avatars/avatar-lg-3.jpg
+File Name: C:\Downloaded Web Sites\demo.foxthemes.net\instello\assets\images\avatars\avatar-lg-3.jpg
+Content Type: image/jpeg
+
+Uri: https://demo.foxthemes.net/instello/assets/images/avatars/avatar-lg-4.jpg
+File Name: C:\Downloaded Web Sites\demo.foxthemes.net\instello\assets\images\avatars\avatar-lg-4.jpg
+Content Type: image/jpeg
+
+Uri: https://demo.foxthemes.net/instello/assets/images/avatars/avatar-lg-5.jpg
+File Name: C:\Downloaded Web Sites\demo.foxthemes.net\instello\assets\images\avatars\avatar-lg-5.jpg
+Content Type: image/jpeg
+
+Uri: https://demo.foxthemes.net/instello/assets/images/demos/beams.jpg
+File Name: C:\Downloaded Web Sites\demo.foxthemes.net\instello\assets\images\demos\beams.jpg
+Content Type: image/jpeg
+
+Uri: https://demo.foxthemes.net/instello/assets/images/demos/grid.svg
+File Name: C:\Downloaded Web Sites\demo.foxthemes.net\instello\assets\images\demos\grid.svg
+Content Type: image/svg+xml
+
+Uri: https://demo.foxthemes.net/instello/assets/images/demos/photo1.jpg
+File Name: C:\Downloaded Web Sites\demo.foxthemes.net\instello\assets\images\demos\photo1.jpg
+Content Type: image/jpeg
+
+Uri: https://demo.foxthemes.net/instello/assets/images/demos/photo2.jpg
+File Name: C:\Downloaded Web Sites\demo.foxthemes.net\instello\assets\images\demos\photo2.jpg
+Content Type: image/jpeg
+
+Uri: https://demo.foxthemes.net/instello/assets/images/demos/photo3.jpg
+File Name: C:\Downloaded Web Sites\demo.foxthemes.net\instello\assets\images\demos\photo3.jpg
+Content Type: image/jpeg
+
+Uri: https://demo.foxthemes.net/instello/assets/images/demos/slider1.jpg
+File Name: C:\Downloaded Web Sites\demo.foxthemes.net\instello\assets\images\demos\slider1.jpg
+Content Type: image/jpeg
+
+Uri: https://demo.foxthemes.net/instello/assets/images/demos/slider2.jpg
+File Name: C:\Downloaded Web Sites\demo.foxthemes.net\instello\assets\images\demos\slider2.jpg
+Content Type: image/jpeg
+
+Uri: https://demo.foxthemes.net/instello/assets/images/demos/slider3.jpg
+File Name: C:\Downloaded Web Sites\demo.foxthemes.net\instello\assets\images\demos\slider3.jpg
+Content Type: image/jpeg
+
+Uri: https://demo.foxthemes.net/instello/assets/images/demos/slider4.jpg
+File Name: C:\Downloaded Web Sites\demo.foxthemes.net\instello\assets\images\demos\slider4.jpg
+Content Type: image/jpeg
+
+Uri: https://demo.foxthemes.net/instello/assets/images/favicon.png
+File Name: C:\Downloaded Web Sites\demo.foxthemes.net\instello\assets\images\favicon.png
+Content Type: image/png
+
+Uri: https://demo.foxthemes.net/instello/assets/images/icon-play.svg
+File Name: C:\Downloaded Web Sites\demo.foxthemes.net\instello\assets\images\icon-play.svg
+Content Type: image/svg+xml
+
+Uri: https://demo.foxthemes.net/instello/assets/images/logo-dark.svg
+File Name: C:\Downloaded Web Sites\demo.foxthemes.net\instello\assets\images\logo-dark.svg
+Content Type: image/svg+xml
+
+Uri: https://demo.foxthemes.net/instello/assets/images/logo-icon.png
+File Name: C:\Downloaded Web Sites\demo.foxthemes.net\instello\assets\images\logo-icon.png
+Content Type: image/png
+
+Uri: https://demo.foxthemes.net/instello/assets/images/logo.svg
+File Name: C:\Downloaded Web Sites\demo.foxthemes.net\instello\assets\images\logo.svg
+Content Type: image/svg+xml
+
+Uri: https://demo.foxthemes.net/instello/assets/images/post/post-1.jpg
+File Name: C:\Downloaded Web Sites\demo.foxthemes.net\instello\assets\images\post\post-1.jpg
+Content Type: image/jpeg
+
+Uri: https://demo.foxthemes.net/instello/assets/images/post/post-2.jpg
+File Name: C:\Downloaded Web Sites\demo.foxthemes.net\instello\assets\images\post\post-2.jpg
+Content Type: image/jpeg
+
+Uri: https://demo.foxthemes.net/instello/assets/images/post/post-3.jpg
+File Name: C:\Downloaded Web Sites\demo.foxthemes.net\instello\assets\images\post\post-3.jpg
+Content Type: image/jpeg
+
+Uri: https://demo.foxthemes.net/instello/assets/images/post/post-4.jpg
+File Name: C:\Downloaded Web Sites\demo.foxthemes.net\instello\assets\images\post\post-4.jpg
+Content Type: image/jpeg
+
+Uri: https://demo.foxthemes.net/instello/assets/images/post/post-5.jpg
+File Name: C:\Downloaded Web Sites\demo.foxthemes.net\instello\assets\images\post\post-5.jpg
+Content Type: image/jpeg
+
+Uri: https://demo.foxthemes.net/instello/assets/images/product/product-1.jpg
+File Name: C:\Downloaded Web Sites\demo.foxthemes.net\instello\assets\images\product\product-1.jpg
+Content Type: image/jpeg
+
+Uri: https://demo.foxthemes.net/instello/assets/images/product/product-2.jpg
+File Name: C:\Downloaded Web Sites\demo.foxthemes.net\instello\assets\images\product\product-2.jpg
+Content Type: image/jpeg
+
+Uri: https://demo.foxthemes.net/instello/assets/images/product/product-3.jpg
+File Name: C:\Downloaded Web Sites\demo.foxthemes.net\instello\assets\images\product\product-3.jpg
+Content Type: image/jpeg
+
+Uri: https://demo.foxthemes.net/instello/assets/images/product/product-4.jpg
+File Name: C:\Downloaded Web Sites\demo.foxthemes.net\instello\assets\images\product\product-4.jpg
+Content Type: image/jpeg
+
+Uri: https://demo.foxthemes.net/instello/assets/images/product/product-5.jpg
+File Name: C:\Downloaded Web Sites\demo.foxthemes.net\instello\assets\images\product\product-5.jpg
+Content Type: image/jpeg
+
+Uri: https://demo.foxthemes.net/instello/assets/images/product/product-6.jpg
+File Name: C:\Downloaded Web Sites\demo.foxthemes.net\instello\assets\images\product\product-6.jpg
+Content Type: image/jpeg
+
+Uri: https://demo.foxthemes.net/instello/assets/images/reels/reels-1.jpg
+File Name: C:\Downloaded Web Sites\demo.foxthemes.net\instello\assets\images\reels\reels-1.jpg
+Content Type: image/jpeg
+
+Uri: https://demo.foxthemes.net/instello/assets/images/reels/reels-2.jpg
+File Name: C:\Downloaded Web Sites\demo.foxthemes.net\instello\assets\images\reels\reels-2.jpg
+Content Type: image/jpeg
+
+Uri: https://demo.foxthemes.net/instello/assets/images/reels/reels-3.jpg
+File Name: C:\Downloaded Web Sites\demo.foxthemes.net\instello\assets\images\reels\reels-3.jpg
+Content Type: image/jpeg
+
+Uri: https://demo.foxthemes.net/instello/assets/images/reels/reels-4.jpg
+File Name: C:\Downloaded Web Sites\demo.foxthemes.net\instello\assets\images\reels\reels-4.jpg
+Content Type: image/jpeg
+
+Uri: https://demo.foxthemes.net/instello/assets/images/reels/reels-5.jpg
+File Name: C:\Downloaded Web Sites\demo.foxthemes.net\instello\assets\images\reels\reels-5.jpg
+Content Type: image/jpeg
+
+Uri: https://demo.foxthemes.net/instello/assets/js/script.js
+File Name: C:\Downloaded Web Sites\demo.foxthemes.net\instello\assets\js\script.js
+Content Type: application/x-javascript
+
+Uri: https://demo.foxthemes.net/instello/assets/js/uikit.min.js
+File Name: C:\Downloaded Web Sites\demo.foxthemes.net\instello\assets\js\uikit.min.js
+Content Type: application/x-javascript
+
+Uri: https://demo.foxthemes.net/instello/assets/syntax-highlighter/scripts/shBrushJScript.js
+File Name: C:\Downloaded Web Sites\demo.foxthemes.net\instello\assets\syntax-highlighter\scripts\shBrushJScript.js
+Content Type: application/x-javascript
+
+Uri: https://demo.foxthemes.net/instello/assets/syntax-highlighter/scripts/shBrushXml.js
+File Name: C:\Downloaded Web Sites\demo.foxthemes.net\instello\assets\syntax-highlighter\scripts\shBrushXml.js
+Content Type: application/x-javascript
+
+Uri: https://demo.foxthemes.net/instello/assets/syntax-highlighter/scripts/shCore.js
+File Name: C:\Downloaded Web Sites\demo.foxthemes.net\instello\assets\syntax-highlighter\scripts\shCore.js
+Content Type: application/x-javascript
+
+Uri: https://demo.foxthemes.net/instello/assets/syntax-highlighter/styles/shCore.css
+File Name: C:\Downloaded Web Sites\demo.foxthemes.net\instello\assets\syntax-highlighter\styles\shCore.css
+Content Type: text/css
+
+Uri: https://demo.foxthemes.net/instello/assets/syntax-highlighter/styles/shCoreMidnight.css
+File Name: C:\Downloaded Web Sites\demo.foxthemes.net\instello\assets\syntax-highlighter\styles\shCoreMidnight.css
+Content Type: text/css
+
+Uri: https://demo.foxthemes.net/instello/components.html
+File Name: C:\Downloaded Web Sites\demo.foxthemes.net\instello\components.html
+Content Type: text/html
+
+Uri: https://demo.foxthemes.net/instello/explore.html
+File Name: C:\Downloaded Web Sites\demo.foxthemes.net\instello\explore.html
+Content Type: text/html
+
+Uri: https://demo.foxthemes.net/instello/form-login.html
+File Name: C:\Downloaded Web Sites\demo.foxthemes.net\instello\form-login.html
+Content Type: text/html
+
+Uri: https://demo.foxthemes.net/instello/form-register.html
+File Name: C:\Downloaded Web Sites\demo.foxthemes.net\instello\form-register.html
+Content Type: text/html
+
+Uri: https://demo.foxthemes.net/instello/home.html
+File Name: C:\Downloaded Web Sites\demo.foxthemes.net\instello\home.html
+Content Type: text/html
+
+Uri: https://demo.foxthemes.net/instello/messages.html
+File Name: C:\Downloaded Web Sites\demo.foxthemes.net\instello\messages.html
+Content Type: text/html
+
+Uri: https://demo.foxthemes.net/instello/peaple.html
+File Name: C:\Downloaded Web Sites\demo.foxthemes.net\instello\peaple.html
+Content Type: text/html
+
+Uri: https://demo.foxthemes.net/instello/profile.html
+File Name: C:\Downloaded Web Sites\demo.foxthemes.net\instello\profile.html
+Content Type: text/html
+
+Uri: https://demo.foxthemes.net/instello/reels-view.html
+File Name: C:\Downloaded Web Sites\demo.foxthemes.net\instello\reels-view.html
+Content Type: text/html
+
+Uri: https://demo.foxthemes.net/instello/reels.html
+File Name: C:\Downloaded Web Sites\demo.foxthemes.net\instello\reels.html
+Content Type: text/html
+
+Uri: https://demo.foxthemes.net/instello/setting.html
+File Name: C:\Downloaded Web Sites\demo.foxthemes.net\instello\setting.html
+Content Type: text/html
+
+Uri: https://demo.foxthemes.net/instello/shop.html
+File Name: C:\Downloaded Web Sites\demo.foxthemes.net\instello\shop.html
+Content Type: text/html
+
+Uri: https://demo.foxthemes.net/instello/upgrade.html
+File Name: C:\Downloaded Web Sites\demo.foxthemes.net\instello\upgrade.html
+Content Type: text/html
+
+Uri: https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800&display=swap
+File Name: C:\Downloaded Web Sites\demo.foxthemes.net\css2
+Content Type: text/css
+
+Uri: https://fonts.gstatic.com/s/inter/v13/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuDyfMZg.ttf
+File Name: C:\Downloaded Web Sites\demo.foxthemes.net\s\inter\v13\UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuDyfMZg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/inter/v13/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuDyYMZg.ttf
+File Name: C:\Downloaded Web Sites\demo.foxthemes.net\s\inter\v13\UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuDyYMZg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/inter/v13/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuFuYMZg.ttf
+File Name: C:\Downloaded Web Sites\demo.foxthemes.net\s\inter\v13\UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuFuYMZg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/inter/v13/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuGKYMZg.ttf
+File Name: C:\Downloaded Web Sites\demo.foxthemes.net\s\inter\v13\UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuGKYMZg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/inter/v13/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuI6fMZg.ttf
+File Name: C:\Downloaded Web Sites\demo.foxthemes.net\s\inter\v13\UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuI6fMZg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/inter/v13/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuLyfMZg.ttf
+File Name: C:\Downloaded Web Sites\demo.foxthemes.net\s\inter\v13\UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuLyfMZg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/inter/v13/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuOKfMZg.ttf
+File Name: C:\Downloaded Web Sites\demo.foxthemes.net\s\inter\v13\UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuOKfMZg.ttf
+Content Type: font/ttf
+
+Uri: https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js
+File Name: C:\Downloaded Web Sites\demo.foxthemes.net\ionicons@5.5.2\dist\ionicons\ionicons.esm.js
+Content Type: application/javascript
+
+Uri: https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js
+File Name: C:\Downloaded Web Sites\demo.foxthemes.net\ionicons@5.5.2\dist\ionicons\ionicons.js
+Content Type: application/javascript
+
